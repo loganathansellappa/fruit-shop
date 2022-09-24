@@ -13,7 +13,7 @@ A simple webstore which sells fruit. The app is to simulate checkout process.
 | Feature            | Url            |
 |--------------------|--------------------|
 | Shop Owner |http://localhost:9000/admin |
-| Customer |http://localhost:9000/admin|
+| Customer |http://localhost:9000|
 
 ## Tech
 
