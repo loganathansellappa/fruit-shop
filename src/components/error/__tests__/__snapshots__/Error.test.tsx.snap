@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Error Page 1`] = `
+<div
+  class="sc-bczRLJ gRfdfs"
+>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-7tl9h4-MuiGrid-root"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4"
+    >
+      Something Went wrong
+    </h4>
+    <h6
+      class="MuiTypography-root MuiTypography-subtitle1"
+    >
+      Sorry, it's us, not you.
+    </h6>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+      style="justify-self: flex-end; background-color: green; color: white; margin-top: 1%;"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Go Home!
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,176 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Cart renders cart 1`] = `
+<aside
+  class="sc-gsnTZi jAjcYu"
+>
+  <h2>
+    Your Cart 
+  </h2>
+  <div
+    class="sc-bczRLJ gUYTfb"
+  >
+    <div>
+      <h3>
+        Banana - 1
+         - 
+        Banana
+      </h3>
+      <div
+        class="information"
+      >
+        <p>
+          Price: €
+          2
+        </p>
+        <p>
+          Total: €
+          8.00
+        </p>
+        <p>
+          FinalPrice: €
+          8.00
+        </p>
+      </div>
+      <div
+        class="buttons"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            -
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <p>
+          4
+        </p>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            +
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <img
+      alt="Banana - 1"
+      src="https://avectime.com/grocery&gourmet/agriculture/brands/images/gros_michel_banana/gros_michel_banana1.jpg"
+    />
+  </div>
+  <div
+    class="sc-bczRLJ gUYTfb"
+  >
+    <div>
+      <h3>
+        Apple - 2
+         - 
+        Apple
+      </h3>
+      <div
+        class="information"
+      >
+        <p>
+          Price: €
+          1
+        </p>
+        <p>
+          Total: €
+          4.00
+        </p>
+        <p>
+          Free: 
+          2
+        </p>
+        <p>
+          FinalPrice: €
+          4.00
+        </p>
+      </div>
+      <div
+        class="buttons"
+      >
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            -
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+        <p>
+          6
+        </p>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            +
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <img
+      alt="Apple - 2"
+      src="https://images.pexels.com/photos/672101/pexels-photo-672101.jpeg"
+    />
+  </div>
+  <h2>
+    Total Price: €
+    12.00
+  </h2>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Buy Now
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</aside>
+`;
+
+exports[`Cart renders empty cart 1`] = `
+<aside
+  class="sc-gsnTZi jAjcYu"
+>
+  <h2>
+    Your Cart 
+    is Empty
+  </h2>
+</aside>
+`;

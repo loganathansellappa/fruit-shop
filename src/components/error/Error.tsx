@@ -13,7 +13,13 @@ const Error = ({ owner = false }: ErrorProps) => {
   const homeUrl = !owner ? '/' : '/admin';
   return (
     <Wrapper>
-      <Grid xs={12} container flexDirection={'column'} alignItems={'center'}>
+      <Grid
+        item
+        xs={12}
+        container
+        flexDirection={'column'}
+        alignItems={'center'}
+      >
         <Typography variant={'h4'}>Something Went wrong</Typography>
         <Typography variant={'subtitle1'}>
           Sorry, it&apos;s us, not you.
@@ -21,7 +27,12 @@ const Error = ({ owner = false }: ErrorProps) => {
         <Button
           variant="outlined"
           onClick={() => navigate(homeUrl)}
-          style={{ justifySelf: 'flex-end', backgroundColor: 'green' }}
+          style={{
+            justifySelf: 'flex-end',
+            backgroundColor: 'green',
+            color: 'white',
+            marginTop: '1%',
+          }}
         >
           Go Home!
         </Button>

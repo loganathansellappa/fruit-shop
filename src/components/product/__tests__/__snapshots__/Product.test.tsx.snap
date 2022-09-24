@@ -1,0 +1,93 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product renders component for owner 1`] = `
+<div
+  class="sc-bczRLJ fPmJiV"
+>
+  <img
+    alt="Banana"
+    src="https://images.pexels.com/photos/672101/pexels-photo-672101.jpeg"
+  />
+  <div
+    class="MuiGrid-root"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+    >
+      Banana
+    </h4>
+    <p
+      class="MuiTypography-root MuiTypography-body1"
+    >
+      AppleLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+    </p>
+    <h4
+      class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+    >
+      €
+      2
+    </h4>
+  </div>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+    style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      View More
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`Product renders component for user 1`] = `
+<div
+  class="sc-bczRLJ fPmJiV"
+>
+  <img
+    alt="Banana"
+    src="https://images.pexels.com/photos/672101/pexels-photo-672101.jpeg"
+  />
+  <div
+    class="MuiGrid-root"
+  >
+    <h4
+      class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+    >
+      Banana
+    </h4>
+    <p
+      class="MuiTypography-root MuiTypography-body1"
+    >
+      AppleLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+    </p>
+    <h4
+      class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+    >
+      €
+      2
+    </h4>
+  </div>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text"
+    style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiButton-label"
+    >
+      Add to Cart
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

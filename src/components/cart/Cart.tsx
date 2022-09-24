@@ -10,6 +10,7 @@ type CartProps = {
   discounts: Discount[];
   addToCart: (product: CartProduct, discount: Discount) => void;
   removeFromCart: (product: CartProduct, discount: Discount) => void;
+  clearCart: () => void;
 };
 
 const Cart = ({

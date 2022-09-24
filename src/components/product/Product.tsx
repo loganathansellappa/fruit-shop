@@ -24,8 +24,6 @@ const Product = ({ product, handleAddToCart, owner, discount }: Props) => {
         return (
           <Button
             onClick={(e) => {
-              e.preventDefault();
-              console.log('CALLED');
               handleAddToCart(product, discount as Discount);
             }}
             style={{ ...buttonStyle }}

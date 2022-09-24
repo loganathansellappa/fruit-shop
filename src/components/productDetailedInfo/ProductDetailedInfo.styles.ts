@@ -20,8 +20,9 @@ export const Wrapper = styled.div`
     padding: 1rem;
     height: 100%;
   }
-  button {
+  a {
     max-width: 200px;
+    padding: 10px 50px 10px 50px;
     background-color: blue;
     color: white;
     &:hover {

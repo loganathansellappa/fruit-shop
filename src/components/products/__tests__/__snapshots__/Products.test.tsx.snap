@@ -1,0 +1,544 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Products renders Products 1`] = `
+<div
+  class="sc-gsnTZi GRJfd"
+>
+  <button
+    class="MuiButtonBase-root MuiIconButton-root sc-dkzDqf iVmOzt"
+    style="position: sticky;"
+    tabindex="0"
+    type="button"
+  >
+    <span
+      class="MuiIconButton-label"
+    >
+      <span
+        class="MuiBadge-root BaseBadge-root css-1c32n2y-MuiBadge-root"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-colorPrimary"
+          focusable="false"
+          style="font-size: 50px;"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M11 9h2V6h3V4h-3V1h-2v3H8v2h3v3zm-4 9c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zm10 0c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2zm-9.83-3.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.86-7.01L19.42 4h-.01l-1.1 2-2.76 5H8.53l-.13-.27L6.16 6l-.95-2-.94-2H1v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.13 0-.25-.11-.25-.25z"
+          />
+        </svg>
+        <span
+          class="MuiBadge-badge MuiBadge-standard MuiBadge-invisible MuiBadge-anchorOriginTopRight MuiBadge-anchorOriginTopRightRectangular MuiBadge-overlapRectangular MuiBadge-colorError BaseBadge-badge BaseBadge-invisible css-zkqb44-MuiBadge-badge"
+        />
+      </span>
+    </span>
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-5"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Banana - 1"
+          src="https://avectime.com/grocery&gourmet/agriculture/brands/images/gros_michel_banana/gros_michel_banana1.jpg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Banana - 1
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            BananaLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            2
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Apple - 2"
+          src="https://images.pexels.com/photos/672101/pexels-photo-672101.jpeg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Apple - 2
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            AppleLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            1
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Pineapple - 3"
+          src="https://helios-i.mashable.com/imagery/articles/05W5DssM7oLPbBjiU4ZY6ob/hero-image.fill.size_1248x702.v1645798494.jpg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Pineapple - 3
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            PineappleLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            5
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Other - 4"
+          src="https://img.pixers.pics/pho_wat(s3:700/FO/78/15/78/42/700_FO78157842_1e837a4bfb4e3bdabed3afa8ae0e4361.jpg,700,465,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,415,jpg)/seitenschlaferkissen-frische-fruchte-mixed-fruits-background-dieting-gesunde-ernahrung.jpg.jpg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Other - 4
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            OtherLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            25
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Other - 5"
+          src="https://img.pixers.pics/pho_wat(s3:700/FO/78/15/78/42/700_FO78157842_1e837a4bfb4e3bdabed3afa8ae0e4361.jpg,700,465,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,415,jpg)/seitenschlaferkissen-frische-fruchte-mixed-fruits-background-dieting-gesunde-ernahrung.jpg.jpg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Other - 5
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            OtherLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            2
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Other - 6"
+          src="https://img.pixers.pics/pho_wat(s3:700/FO/78/15/78/42/700_FO78157842_1e837a4bfb4e3bdabed3afa8ae0e4361.jpg,700,465,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,415,jpg)/seitenschlaferkissen-frische-fruchte-mixed-fruits-background-dieting-gesunde-ernahrung.jpg.jpg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Other - 6
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            OtherLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            29
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Other - 7"
+          src="https://img.pixers.pics/pho_wat(s3:700/FO/78/15/78/42/700_FO78157842_1e837a4bfb4e3bdabed3afa8ae0e4361.jpg,700,465,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,415,jpg)/seitenschlaferkissen-frische-fruchte-mixed-fruits-background-dieting-gesunde-ernahrung.jpg.jpg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Other - 7
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            OtherLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            15
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Other - 8"
+          src="https://img.pixers.pics/pho_wat(s3:700/FO/78/15/78/42/700_FO78157842_1e837a4bfb4e3bdabed3afa8ae0e4361.jpg,700,465,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,415,jpg)/seitenschlaferkissen-frische-fruchte-mixed-fruits-background-dieting-gesunde-ernahrung.jpg.jpg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Other - 8
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            OtherLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            9
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Other - 9"
+          src="https://img.pixers.pics/pho_wat(s3:700/FO/78/15/78/42/700_FO78157842_1e837a4bfb4e3bdabed3afa8ae0e4361.jpg,700,465,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,415,jpg)/seitenschlaferkissen-frische-fruchte-mixed-fruits-background-dieting-gesunde-ernahrung.jpg.jpg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Other - 9
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            OtherLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            17
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-10 MuiGrid-grid-sm-2"
+    >
+      <div
+        class="sc-gKXOVf fHMQul"
+      >
+        <img
+          alt="Other - 10"
+          src="https://img.pixers.pics/pho_wat(s3:700/FO/78/15/78/42/700_FO78157842_1e837a4bfb4e3bdabed3afa8ae0e4361.jpg,700,465,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,415,jpg)/seitenschlaferkissen-frische-fruchte-mixed-fruits-background-dieting-gesunde-ernahrung.jpg.jpg"
+        />
+        <div
+          class="MuiGrid-root"
+        >
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            Other - 10
+          </h4>
+          <p
+            class="MuiTypography-root MuiTypography-body1"
+          >
+            OtherLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat
+          </p>
+          <h4
+            class="MuiTypography-root MuiTypography-h4 MuiTypography-noWrap"
+          >
+            €
+            21
+          </h4>
+        </div>
+        <button
+          class="MuiButtonBase-root MuiButton-root MuiButton-text"
+          style="background-color: green; color: rgb(255, 255, 255); border-radius: 0 0 20px 20px;"
+          tabindex="0"
+          type="button"
+        >
+          <span
+            class="MuiButton-label"
+          >
+            Add to Cart
+          </span>
+          <span
+            class="MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </div>
+  <div
+    class="sc-hKMtZM hJDrzw"
+  >
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary Mui-disabled Mui-disabled"
+      disabled=""
+      tabindex="-1"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Previous
+      </span>
+    </button>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlinedPrimary"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Next
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;

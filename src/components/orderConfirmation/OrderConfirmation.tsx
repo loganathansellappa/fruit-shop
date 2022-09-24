@@ -8,8 +8,14 @@ const OrderConfirmation = () => {
   const navigate = useNavigate();
   return (
     <Wrapper>
-      <Grid xs={12} container flexDirection={'column'} alignItems={'center'}>
-        <h1>Your order has been placed successfull!</h1>
+      <Grid
+        item
+        xs={12}
+        container
+        flexDirection={'column'}
+        alignItems={'center'}
+      >
+        <h1>Your order has been placed successfully!</h1>
         <Button
           variant="outlined"
           onClick={() => navigate('/')}

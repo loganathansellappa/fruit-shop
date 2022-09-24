@@ -6,7 +6,7 @@ import {
   DialogContentText,
   DialogTitle,
   Grid,
-  LinearProgress,
+  LinearProgress, Link,
   TextField,
 } from '@material-ui/core';
 import { Title, Wrapper } from './ProductDetailedInfo.styles';
@@ -87,9 +87,7 @@ const ProductDetailedInfo = () => {
       </div>
       <Grid container alignItems={'center'} justifyContent={'center'}>
         <Grid item xs={2}>
-          <Button variant="outlined" onClick={() => navigate('/admin')}>
-            Back
-          </Button>
+            <Link  href={'/admin'} underline={'none'}>Back</Link>
         </Grid>
       </Grid>
       <Dialog

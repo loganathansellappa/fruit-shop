@@ -22,8 +22,9 @@ import { Badge } from '@mui/material';
 import { useUser } from '../../hooks/useUser';
 import { DiscountTypes } from '../../contants/Contants';
 import { getDiscount } from '../../utils/HelperUtils';
-const defaultCartItems = { products: {}, totalQuantity: 0, totalPrice: 0 };
+
 const Products: React.FunctionComponent = () => {
+  const defaultCartItems = { products: {}, totalQuantity: 0, totalPrice: 0, totalUserQuantity: 0 };
   const [offset, setOffset] = useState<number>(1);
   const [loading, setLoading] = useState<boolean>(false);
   const owner = useUser();
@@ -42,7 +43,7 @@ const Products: React.FunctionComponent = () => {
     }
   }, [isFetching, isLoading]);
 
-  const handleAddToCartMine = useCallback(
+  const handleAddToCart = useCallback(
     (product: ProductDetail, discount: Discount) => {
       setCartItems((prev: ShoppingCart) => {
         const cart: ShoppingCart = { ...prev };
@@ -92,7 +93,7 @@ const Products: React.FunctionComponent = () => {
     []
   );
 
-  const handleRemoveFromCartMine = useCallback(
+  const handleRemoveFromCart = useCallback(
     (product: ProductDetail, discount: Discount) => {
       setCartItems((prev: ShoppingCart) => {
         const cart: ShoppingCart = { ...prev };
@@ -137,6 +138,8 @@ const Products: React.FunctionComponent = () => {
     []
   );
 
+  const clearCart = useCallback(() => setCartItems({...defaultCartItems}), []);
+
   if (error) {
     return <Error />;
   }
@@ -153,8 +156,9 @@ const Products: React.FunctionComponent = () => {
             <Cart
               checkoutCart={cartItems}
               discounts={data?.discounts || []}
-              addToCart={handleAddToCartMine}
-              removeFromCart={handleRemoveFromCartMine}
+              addToCart={handleAddToCart}
+              removeFromCart={handleRemoveFromCart}
+              clearCart={clearCart}
             />
           </Drawer>
           <StyledButton
@@ -185,7 +189,7 @@ const Products: React.FunctionComponent = () => {
                   product={product}
                   owner={owner}
                   discount={getDiscount(product, data?.discounts || [])}
-                  handleAddToCart={handleAddToCartMine}
+                  handleAddToCart={handleAddToCart}
                 />
               </Grid>
             );

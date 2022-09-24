@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProductDetailedInfo renders ProductDetailedInfo 1`] = `
+<div
+  class="sc-bczRLJ inpPbK"
+>
+  <img
+    alt="Apple - 2"
+    src="https://images.pexels.com/photos/672101/pexels-photo-672101.jpeg"
+  />
+  <div
+    class="sc-gsnTZi cMbbcs"
+  >
+    <h3>
+      Title
+    </h3>
+    <p>
+      Apple - 2
+    </p>
+  </div>
+  <div>
+    <h3>
+      price
+    </h3>
+    <p>
+      €
+      1
+    </p>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container"
+  >
+    <h3>
+      description
+    </h3>
+    <p>
+      AppleLorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum ante purus, id fermentum nulla commodo vehicula. Nulla id volutpat lorem, et vehicula enim. Nam erat nunc, efficitur eget nibh at, euismod molestie justo. Nunc dictum euismod lacus nec varius. Sed efficitur dui et magna elementum pharetra. Proin ipsum mauris, pretium id tellus at, ultrices maximus metus. Interdum et malesuada fames ac ante ipsum primis in faucibus. In arcu dui, volutpat in sem vehicula, hendrerit lacinia elit. Nullam tristique augue non tempor efficitur. Nulla iaculis nibh at tortor pharetra, sit amet ornare lectus auctor. Sed nec sapien at est fermentum posuere. Fusce suscipit tristique velit, et consectetur nunc dignissim nec. Sed id ligula ut ante gravida ornare. Suspendisse eu odio lacus. Proin rhoncus convallis vehicula.
+    </p>
+  </div>
+  <div>
+    <h3>
+      Discounts 
+      Unavailable
+       
+    </h3>
+  </div>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-align-items-xs-center MuiGrid-justify-content-xs-center"
+  >
+    <div
+      class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-2"
+    >
+      <a
+        class="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorPrimary"
+        href="/admin"
+      >
+        Back
+      </a>
+    </div>
+  </div>
+</div>
+`;

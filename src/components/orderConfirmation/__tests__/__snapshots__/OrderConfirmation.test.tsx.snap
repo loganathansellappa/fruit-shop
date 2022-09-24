@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders OrderConfirmation Page 1`] = `
+<div
+  class="sc-bczRLJ gRfdfs"
+>
+  <div
+    class="MuiGrid-root MuiGrid-container MuiGrid-item MuiGrid-grid-xs-12 css-7tl9h4-MuiGrid-root"
+  >
+    <h1>
+      Your order has been placed successfully!
+    </h1>
+    <button
+      class="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+      style="justify-self: flex-end; background-color: green;"
+      tabindex="0"
+      type="button"
+    >
+      <span
+        class="MuiButton-label"
+      >
+        Go Home!
+      </span>
+      <span
+        class="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
